@@ -1,0 +1,21 @@
+.
+├── App.js
+├── app
+│   ├── choisir-role.tsx
+│   ├── index.tsx
+│   └── register.tsx
+├── app.json
+├── assets
+│   ├── adaptive-icon.png
+│   ├── favicon.png
+│   ├── icon.png
+│   └── splash-icon.png
+├── lib
+│   └── supabase.ts
+├── package-lock.json
+├── package.json
+├── tree.txt
+├── tsconfig.json
+└── venv
+
+5 directories, 14 files
