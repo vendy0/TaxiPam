@@ -1,9 +1,11 @@
 .
 ├── App.js
 ├── app
-│   ├── choisir-role.tsx
-│   ├── index.tsx
-│   └── register.tsx
+│   └── (auth)
+│       ├── index.tsx
+│       ├── login.tsx
+│       ├── register.tsx
+│       └── verification.tsx
 ├── app.json
 ├── assets
 │   ├── adaptive-icon.png
@@ -15,7 +17,6 @@
 ├── package-lock.json
 ├── package.json
 ├── tree.txt
-├── tsconfig.json
-└── venv
+└── tsconfig.json
 
-5 directories, 14 files
+5 directories, 15 files
