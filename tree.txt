@@ -1,11 +1,15 @@
 .
 ├── App.js
 ├── app
-│   └── (auth)
-│       ├── index.tsx
-│       ├── login.tsx
-│       ├── register.tsx
-│       └── verification.tsx
+│   ├── (auth)
+│   │   ├── _layout.tsx
+│   │   ├── index.tsx
+│   │   ├── login.tsx
+│   │   ├── otp.tsx
+│   │   ├── pending.tsx
+│   │   ├── register.tsx
+│   │   └── verification.tsx
+│   └── _layout.tsx
 ├── app.json
 ├── assets
 │   ├── adaptive-icon.png
@@ -13,10 +17,11 @@
 │   ├── icon.png
 │   └── splash-icon.png
 ├── lib
-│   └── supabase.ts
+│   ├── supabase.ts
+│   └── useProfile.ts
 ├── package-lock.json
 ├── package.json
 ├── tree.txt
 └── tsconfig.json
 
-5 directories, 15 files
+5 directories, 20 files
