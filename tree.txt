@@ -9,7 +9,6 @@
 │   │   ├── register.tsx
 │   │   └── verification.tsx
 │   └── (tabs)
-│       ├── _layout.tsx
 │       ├── chats.tsx
 │       ├── deliveries.tsx
 │       ├── history.tsx
@@ -19,6 +18,7 @@
 ├── app.json
 ├── assets
 │   ├── adaptive-icon.png
+│   ├── brand.png
 │   ├── favicon.png
 │   ├── icon.png
 │   └── splash-icon.png
