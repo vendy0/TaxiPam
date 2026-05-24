@@ -119,7 +119,7 @@ export default function Register() {
     // 3. Redirection selon le rôle
     if (role === 'client') {
       // Client → directement dans l'app (pas de SMS pour l'instant)
-      router.replace("/(tabs)/map");
+      router.replace("/(tabs)/");
     } else {
       // Chauffeur / Livreur → upload documents
       router.push("/(auth)/verification");
